@@ -1,0 +1,77 @@
+
+WEB API
+
+MVC
+References: Contains all the references that come by default for the project
+App_Start: Configuration of a web API project
+	+ BundleConfig.cs: Bundle the javascript and the css files
+	+ RouteConfig: routing config for MVC app
+	+ FilterConfig:
+	+ WebApiConfig: Web API routing config files
+
+Areas: Used in a large project
+Content: Contains all the Css files
+
+Global.asax: Raised the event when the app start
+
+-----------------------------------------------------------------------------------------
+
+CONGIFURING DBCONTEXT
+
+Why?
+- Write nad execute queries
+- Materialize query results as entity objects
+- Track changes that are made to those objects
+- Persist object changes back to database
+- bind objects in memory to UI controls
+-> Entity Framework
+
+Defining Database using DbContext
+- No parameter
+- Database Name
+- Connection string 
+
+Connection String Steps
+- Construction declareation
+- Get the connection string
+- Add migration
+- Add seed data
+- Run the app
+
+Authentication via Tokens
+- Get token
+- Store on local storage
+- Check if the token exists
+
+------------------------------------------------------------------------------------------
+
+SERVICES (AngularCLI)
+
+ng g s <servicename>
+
+@Injectable: Tell angular that it can inject this service and use its methods or properties from wherever within the application
+
+Calling WEB API Endpoint
+- Create service method
+- Inject service
+- Call method
+
+Configuring Material Design in Angular
+- Install packages (Angular Material, CDK, and Animations)
+- Configure animations
+- Import the component modules
+
+		Angular Forms	|		Template-driven Forms
+- Scalable				|	- Useful for simple forms
+- Reusable				|
+- Testable				|
+
+----------------------------------------------------------------------------------------------
+
+TOKEN
+- A piece of data created by a server (WebAPI,..), which contains enough data to identify a user
+
+
+
+
+
